@@ -1,1 +1,21 @@
+.btn{
 
+  display:inline-block;
+  margin-right: 50px;
+  height :50px;
+  width : 100px;
+  background-color: rgb(230, 117, 11);
+  color : white;
+  font-size: 15px;
+  border-radius: 5px;
+
+}
+
+.btn:hover{
+
+  background-color: rgba(230,117,11,0.8);
+  color : black;
+  box-shadow: 5px 8px rgb(173, 171, 171);
+
+
+}
