@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="container">
+  <h1>Add and Display Bus Details</h1>
+  <h2 style="margin-left: 5px; color:red; " >-Add Bus Deatails</h2>
+<form onsubmit="addDetails(event)">
+<input type="text" required  placeholder="Name..." class="srch">
+<input type="text" required  placeholder="Source..." class="srch">
+<input type="text"required placeholder="Destination..." class="srch">
+<input type="text" required placeholder="Number..." class="srch">
+<input type="text"  required placeholder="Passenger Capacity..." class="srch">
+<button type="submit" class="btn">Add Details</button>
 
+</form>
+<h2 style="margin-left: 20px; color:red;">Search Bus : </h2>
+
+<form onsubmit="checkBus(event)" >
+<input type="text" required placeholder="source..." class="srch1" >
+<input type="text" required placeholder="destination..." class="srch1" >
+<button type="submit" class="btn1" >search</button>
+<button class="btn1" onclick="refresh()">refresh</button>
+</form>
+
+<h2 style="margin:20px; text-align: center; color:red;">Table</h2>
+ 
+<table class="tbl">
+  <thead>
+    <tr>
+      <th>Sl.no</th>
+      <th>Name</th>
+      <th>Source</th>
+      <th>Destination</th>
+      <th>Number</th>
+      <th >Capacity</th>
+      <th >Action</th>
+   
+   </tr>
+  </thead>
+  <tbody class="tbl1">
+  
+  </tbody>
+  
+</table>
+
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
