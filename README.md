@@ -16,5 +16,5 @@ _In this project the BUS details are stored in localStorage you can check it by 
 <br>
 
 # onLineMall.com
-<a href="https://vipin24bohra.github.io/LetsUpgrade-Javascript/day7-8/shop.html" target="_blank">mini e-commerce website ypu can add in cart and filter and see cart.</a>
+<a href="https://vipin24bohra.github.io/LetsUpgrade-Javascript/day7-8/shop.html" target="_blank">mini e-commerce website you can add in cart,filter items and see cart.</a>
 <br>
