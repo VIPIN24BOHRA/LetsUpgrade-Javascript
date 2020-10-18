@@ -11,7 +11,7 @@ Here I have done few projects on front-end.<br>
  
 # Add and search In The Form
 
-In this project the BUS details are stored in localStorage you can check it by refreshing or by closing and again opening the webpage.
+_In this project the BUS details are stored in localStorage you can check it by refreshing or by closing and again opening the webpage._<br>
  <a href="https://vipin24bohra.github.io/LetsUpgrade-Javascript/day5-6/project 2/form.html" target="_blank">In this you can add BUS details and even search for any bus by providing source and destination</a>
 <br>
 
